@@ -1,0 +1,42 @@
+#title {text-align: center; color: rgb(255, 255, 255) ; font-family: tf2;}
+
+body{background: linear-gradient(to bottom left , #472eff, #21daff);background-color: aqua;}
+
+@font-face {
+    font-family: tf2;
+    src: url(fonts/tf2build.ttf);
+}
+#progress{color: red; text-align: center;}
+
+.progress{border:  2px; border-radius: 10px; display: block; border-color: rgb(89, 89, 89); margin: 0 auto; padding: 20px 0;
+background-color: #ffffff50; border-style: double;}
+
+#progress:hover{color: blue;}
+
+table {background-color: rgba(255, 255, 255, 0.411); color: rgb(0, 0, 0); padding: 10px 0;border-style: double; margin-left: 30px;
+transform: scale(1.1);}
+
+
+/*navigation bar*/
+
+
+nav {background-color: rgb(0, 16, 106); padding: 1rem; border-radius: 10px;}
+
+nav ul {list-style-type: none;margin: 0; padding: 0; display: flex; justify-content: space-around;}
+
+nav ul li {display: inline;}
+
+nav ul li a {color: white; text-decoration: none; padding: 0.5rem 1rem; display: block;}
+
+nav ul li a:hover {background-color: rgb(179, 179, 179); border-radius: 5px;}
+
+
+
+/*material list*/
+#material_title {font-family: tf2; color: blue; text-align: center;}
+
+#material {color: black; margin-left: 30px; margin-right: 30px;}
+
+
+a {text-decoration: none;}
+
